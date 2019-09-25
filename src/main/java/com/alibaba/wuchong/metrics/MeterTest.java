@@ -35,7 +35,7 @@ public class MeterTest {
 
         while(true){
             request(meterTps,random.nextInt(5));
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }
 
     }
